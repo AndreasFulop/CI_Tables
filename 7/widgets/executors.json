@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://AndreasFulop.github.io/CI_Tables",
+  "buildOrder" : 7,
+  "buildName" : "GitHub Actions Run #1098509447",
+  "buildUrl" : "https://github.com/AndreasFulop/CI_Tables/actions/runs/1098509447",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/7/"
+} ]
