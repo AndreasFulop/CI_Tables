@@ -69,9 +69,10 @@ public class MainPage {
         try{Thread.sleep(10000);
         result[0] = driver.findElement(TITLE_CHECKS).getText();
         result[1] = driver.getCurrentUrl();
-        return result;}
+        }
         catch (Exception e) {
             System.out.println("ERROR");}
+        return result;
     }
 
     private void click(By by) {
