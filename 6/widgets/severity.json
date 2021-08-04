@@ -1,0 +1,41 @@
+[ {
+  "uid" : "69e7b612978ca898",
+  "name" : "testTableNameRows()",
+  "time" : {
+    "start" : 1628095406842,
+    "stop" : 1628095407861,
+    "duration" : 1019
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94439ee511012698",
+  "name" : "testTableRows()",
+  "time" : {
+    "start" : 1628095403039,
+    "stop" : 1628095404738,
+    "duration" : 1699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "146abd79d00923de",
+  "name" : "testTableColNames()",
+  "time" : {
+    "start" : 1628095404839,
+    "stop" : 1628095405844,
+    "duration" : 1005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78e4a6d7c8598d9d",
+  "name" : "testTableSecRows()",
+  "time" : {
+    "start" : 1628095405848,
+    "stop" : 1628095406834,
+    "duration" : 986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
