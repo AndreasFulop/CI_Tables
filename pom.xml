@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>tableElements</artifactId>
+    <artifactId>CI_Tables</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
