@@ -1,24 +1,3 @@
 [ {
-  "buildOrder" : 16,
-  "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/16/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 7837
-  }
-}, {
-  "buildOrder" : 15,
-  "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/15/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 8519
-  }
-}, {
-  "buildOrder" : 14,
-  "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/14/",
-  "reportName" : "Allure Report with history",
-  "data" : {
-    "duration" : 7975
-  }
-}, {
   "data" : { }
 } ]
