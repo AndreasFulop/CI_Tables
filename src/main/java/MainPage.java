@@ -66,12 +66,12 @@ public class MainPage {
         String[] result = new String[2];
         click(FORMS_MENU);
         click(CHECKS);
-        try{Thread.sleep(10000);}
-        catch (Exception e) {
-            System.out.println("ERROR");}
+        try{Thread.sleep(10000);
         result[0] = driver.findElement(TITLE_CHECKS).getText();
         result[1] = driver.getCurrentUrl();
-        return result;
+        return result}
+        catch (Exception e) {
+            System.out.println("ERROR");};
     }
 
     private void click(By by) {
