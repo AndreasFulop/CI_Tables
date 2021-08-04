@@ -13,6 +13,10 @@ public class MainPage {
     private final By TABLE_ROWS2 = By.xpath("/html/body/div[2]/main/div[3]/div[46]/table/tbody/tr");
     private final By TABLE_NAMES = By.xpath("/html/body/div[2]/main/div[3]/div[58]/table/thead/tr/th");
 
+    private final By FORMS_MENU = By.xpath("//*[@id=\"bd-docs-nav\"]/ul/li[5]/button");
+    private final By CHECKS = By.xpath("//*[@id=\"forms-collapse\"]/ul/li[4]/a");
+    private final By TITLE_CHECKS = By.xpath("//*[@id=\"content\"]");
+
     WebDriver driver;
     public MainPage(WebDriver driver) {
         this.driver = driver;
@@ -56,5 +60,19 @@ public class MainPage {
             result.add(text);
         }
         return result;
+    }
+
+    public String[] checksRadios() throws InterruptedException{
+        String[] result = new String[2];
+        click(FORMS_MENU);
+        click(CHECKS);
+        Thread.sleep(2000);
+        result[0] = driver.findElement(TITLE_CHECKS).getText();
+        result[1] = driver.getCurrentUrl();
+        return result;
+    }
+
+    private void click(By by) {
+       driver.findElement(by).click();
     }
 }

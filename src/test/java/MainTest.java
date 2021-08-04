@@ -9,14 +9,18 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class MainTest {
-    WebDriver driver;
+    private WebDriver driver;
+
+    @BeforeAll
+    public static void Init() {
+        WebDriverManager.chromedriver().setup();
+    }
 
     @BeforeEach
-    public void getDriver() {
-        WebDriverManager.chromedriver().setup();
+    public void setDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
-        //  options.addArguments("--headless");
+        options.addArguments("--headless");
         options.addArguments("incognito");
         options.addArguments("--disable-gpu", "--ignore-certificate-errors", "--disable-extensions", "--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
@@ -66,9 +70,25 @@ public class MainTest {
         Assertions.assertEquals(expected, mainPage.tableColNames());
     }
 
+    @Test
+    public void testCheckRadioClick() throws InterruptedException{
+        MainPage mainPage = new MainPage(driver);
+        String expected = "Checks and radios";
+        Assertions.assertEquals(expected, mainPage.checksRadios()[0]);
+    }
+
+    @Test
+    public void testCheckRadioUrl() throws InterruptedException{
+        MainPage mainPage = new MainPage(driver);
+        String expected = "https://getbootstrap.com/docs/5.0/forms/checks-radios/";
+        Assertions.assertEquals(expected, mainPage.checksRadios()[1]);
+    }
+
     @AfterEach
     public void closing() {
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
 }
