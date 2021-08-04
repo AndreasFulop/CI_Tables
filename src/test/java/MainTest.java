@@ -71,14 +71,14 @@ public class MainTest {
     }
 
     @Test
-    public void testCheckRadioClick() throws InterruptedException{
+    public void testCheckRadioClick(){
         MainPage mainPage = new MainPage(driver);
         String expected = "Checks and radios";
         Assertions.assertEquals(expected, mainPage.checksRadios()[0]);
     }
 
     @Test
-    public void testCheckRadioUrl() throws InterruptedException{
+    public void testCheckRadioUrl(){
         MainPage mainPage = new MainPage(driver);
         String expected = "https://getbootstrap.com/docs/5.0/forms/checks-radios/";
         Assertions.assertEquals(expected, mainPage.checksRadios()[1]);

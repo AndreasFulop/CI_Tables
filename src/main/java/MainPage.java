@@ -62,11 +62,13 @@ public class MainPage {
         return result;
     }
 
-    public String[] checksRadios() throws InterruptedException{
+    public String[] checksRadios(){
         String[] result = new String[2];
         click(FORMS_MENU);
         click(CHECKS);
-        Thread.sleep(2000);
+        try{Thread.sleep(2000);}
+        catch (Exception e) {
+            System.out.println("ERROR");}
         result[0] = driver.findElement(TITLE_CHECKS).getText();
         result[1] = driver.getCurrentUrl();
         return result;
