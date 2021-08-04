@@ -66,7 +66,7 @@ public class MainPage {
         String[] result = new String[2];
         click(FORMS_MENU);
         click(CHECKS);
-        try{Thread.sleep(2000);}
+        try{Thread.sleep(10000);}
         catch (Exception e) {
             System.out.println("ERROR");}
         result[0] = driver.findElement(TITLE_CHECKS).getText();
