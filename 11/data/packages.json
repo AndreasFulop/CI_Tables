@@ -1,0 +1,87 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "MainTest",
+    "children" : [ {
+      "name" : "testTableRows",
+      "uid" : "1af227734519a4cb",
+      "parentUid" : "927a2f70865f5c5466245cddff0795e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628106124508,
+        "stop" : 1628106125618,
+        "duration" : 1110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTableColNames",
+      "uid" : "cd9323dbc4471d94",
+      "parentUid" : "927a2f70865f5c5466245cddff0795e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628106125686,
+        "stop" : 1628106126472,
+        "duration" : 786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCheckRadioUrl",
+      "uid" : "775e6a8eb3e2dee5",
+      "parentUid" : "927a2f70865f5c5466245cddff0795e8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628106126475,
+        "stop" : 1628106128396,
+        "duration" : 1921
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTableSecRows",
+      "uid" : "2a9aa3a46fb02b41",
+      "parentUid" : "927a2f70865f5c5466245cddff0795e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628106128412,
+        "stop" : 1628106129300,
+        "duration" : 888
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCheckRadioClick",
+      "uid" : "f3aa51932722cf45",
+      "parentUid" : "927a2f70865f5c5466245cddff0795e8",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628106129303,
+        "stop" : 1628106131196,
+        "duration" : 1893
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTableNameRows",
+      "uid" : "5a292700f89413c2",
+      "parentUid" : "927a2f70865f5c5466245cddff0795e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628106131200,
+        "stop" : 1628106132017,
+        "duration" : 817
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "927a2f70865f5c5466245cddff0795e8"
+  } ],
+  "name" : "packages"
+}
