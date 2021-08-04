@@ -1,0 +1,61 @@
+[ {
+  "uid" : "40ca14ea5424e7bc",
+  "name" : "testTableNameRows()",
+  "time" : {
+    "start" : 1628108503428,
+    "stop" : 1628108504280,
+    "duration" : 852
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8adb279cfe3e42b9",
+  "name" : "testCheckRadioClick()",
+  "time" : {
+    "start" : 1628108501436,
+    "stop" : 1628108503422,
+    "duration" : 1986
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "584e4b44bd57c353",
+  "name" : "testTableRows()",
+  "time" : {
+    "start" : 1628108496443,
+    "stop" : 1628108497630,
+    "duration" : 1187
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75463d882bb64c66",
+  "name" : "testTableColNames()",
+  "time" : {
+    "start" : 1628108497716,
+    "stop" : 1628108498564,
+    "duration" : 848
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8de03b12275ef855",
+  "name" : "testTableSecRows()",
+  "time" : {
+    "start" : 1628108500586,
+    "stop" : 1628108501431,
+    "duration" : 845
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bde18b329150aa95",
+  "name" : "testCheckRadioUrl()",
+  "time" : {
+    "start" : 1628108498569,
+    "stop" : 1628108500574,
+    "duration" : 2005
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
