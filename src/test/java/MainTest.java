@@ -9,11 +9,15 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class MainTest {
-    WebDriver driver;
+    private WebDriver driver;
+
+    @BeforeAll
+    public static void Init() {
+        WebDriverManager.chromedriver().setup();
+    }
 
     @BeforeEach
-    public void getDriver() {
-        WebDriverManager.chromedriver().setup();
+    public void setDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
         options.addArguments("--headless");
@@ -68,7 +72,9 @@ public class MainTest {
 
     @AfterEach
     public void closing() {
-        driver.quit();
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
 }
