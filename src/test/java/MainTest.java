@@ -25,7 +25,7 @@ public class MainTest {
         options.addArguments("incognito");
         options.addArguments("--disable-gpu", "--ignore-certificate-errors", "--disable-extensions", "--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(16, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(12, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get("https://getbootstrap.com/docs/5.0/content/tables/");
     }

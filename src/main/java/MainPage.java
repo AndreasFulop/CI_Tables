@@ -71,6 +71,7 @@ public class MainPage {
 
     public String[] checksRadios() {
         String[] result = new String[2];
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         try {
             click(COLLAPSE_BUTTON);
         } catch (Exception e) {
@@ -81,12 +82,13 @@ public class MainPage {
             Allure.addAttachment("First click image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         }
         try {
+            wait.until(ExpectedConditions.attributeToBe(FORMS_MENU, "aria-expanded", "true"));
             click(CHECKS);
         } catch (Exception e) {
  //           driver.get("https://getbootstrap.com/docs/5.0/forms/checks-radios");
             Allure.addAttachment("Second click image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         } try {
-            WebDriverWait wait = new WebDriverWait(driver, 10);
+
       //      wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(ANCHOR)));
        //     wait.until(ExpectedConditions.textToBe(TITLE_CHECKS,"Checks and radios"));
             wait.until(ExpectedConditions.visibilityOf(driver.findElement(CHECKBOX)));
