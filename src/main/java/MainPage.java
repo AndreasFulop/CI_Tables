@@ -77,7 +77,7 @@ public class MainPage {
             click(CHECKS);
             WebDriverWait wait = new WebDriverWait(driver, 10);
     //        wait.until(ExpectedConditions.visibilityOf(driver.findElement(TITLE_CHECKS)));
-            wait.until(ExpectedConditions.textMatches(TITLE_CHECKS, Pattern.compile("Checks and radios")));
+            wait.until(ExpectedConditions.textToBe(TITLE_CHECKS,"Checks and radios"));
             result[0] = driver.findElement(TITLE_CHECKS).getText();
             Thread.sleep(2000);
             result[1] = driver.getCurrentUrl();
