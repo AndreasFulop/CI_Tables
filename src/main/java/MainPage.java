@@ -1,6 +1,7 @@
 
 import io.qameta.allure.Allure;
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -71,7 +72,7 @@ public class MainPage {
 
     public String[] checksRadios() {
         String[] result = new String[2];
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 2);
         try {
             click(COLLAPSE_BUTTON);
         } catch (Exception e) {
@@ -83,6 +84,8 @@ public class MainPage {
         }
         try {
             wait.until(ExpectedConditions.attributeToBe(FORMS_MENU, "aria-expanded", "true"));
+            Actions action = new Actions(driver);
+            action.sendKeys(Keys.PAGE_DOWN).build().perform();
             click(CHECKS);
         } catch (Exception e) {
  //           driver.get("https://getbootstrap.com/docs/5.0/forms/checks-radios");
@@ -101,7 +104,7 @@ public class MainPage {
     }
 
     private void click(By by) {
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.elementToBeClickable(by));
         driver.findElement(by).click();
     }
