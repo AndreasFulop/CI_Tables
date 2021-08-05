@@ -1,0 +1,161 @@
+{
+  "uid" : "113f5d0b4f7af988",
+  "name" : "testTableSecRows()",
+  "fullName" : "MainTest.testTableSecRows",
+  "historyId" : "f79d291ff8c51c691a133def9df4585e",
+  "time" : {
+    "start" : 1628176528981,
+    "stop" : 1628176529846,
+    "duration" : 865
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1628176528981,
+      "stop" : 1628176529679,
+      "duration" : 698
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628176508178,
+      "stop" : 1628176508500,
+      "duration" : 322
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closing",
+    "time" : {
+      "start" : 1628176529771,
+      "stop" : 1628176529845,
+      "duration" : 74
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Testing a table"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-521"
+  }, {
+    "name" : "thread",
+    "value" : "3638@fv-az39-521.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MainTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MainTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testTableSecRows"
+  }, {
+    "name" : "suite",
+    "value" : "MainTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "a0243bba7800d31b",
+        "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/33//#testresult/a0243bba7800d31b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628175884749,
+          "stop" : 1628175885699,
+          "duration" : 950
+        }
+      }, {
+        "uid" : "91548358b9790472",
+        "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/32//#testresult/91548358b9790472",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628175307384,
+          "stop" : 1628175308392,
+          "duration" : 1008
+        }
+      }, {
+        "uid" : "d2c6c71cf446df4e",
+        "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/31//#testresult/d2c6c71cf446df4e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628174467990,
+          "stop" : 1628174468754,
+          "duration" : 764
+        }
+      }, {
+        "uid" : "9340718959e0722e",
+        "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/30//#testresult/9340718959e0722e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628173334902,
+          "stop" : 1628173335733,
+          "duration" : 831
+        }
+      }, {
+        "uid" : "7743c5df8a06c214",
+        "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/29//#testresult/7743c5df8a06c214",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628172569074,
+          "stop" : 1628172569958,
+          "duration" : 884
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "113f5d0b4f7af988.json",
+  "parameterValues" : [ ]
+}
