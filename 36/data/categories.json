@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <https://getbootstrap.com/docs/5.0/forms/checks-radios/> but was: <null>",
+      "children" : [ {
+        "name" : "testCheckRadioUrl()",
+        "uid" : "f8828ad067894569",
+        "parentUid" : "04300458f778e5aab954168080251629",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628178483137,
+          "stop" : 1628178518053,
+          "duration" : 34916
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04300458f778e5aab954168080251629"
+    }, {
+      "name" : "expected: <Checks and radios> but was: <null>",
+      "children" : [ {
+        "name" : "testCheckRadioClick()",
+        "uid" : "ae49b1822dd508d7",
+        "parentUid" : "6b91f8d4825319cd4b609be17408e6b6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1628178523914,
+          "stop" : 1628178559109,
+          "duration" : 35195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b91f8d4825319cd4b609be17408e6b6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
