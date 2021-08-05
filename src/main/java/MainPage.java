@@ -82,7 +82,6 @@ public class MainPage {
     //        wait.until(ExpectedConditions.visibilityOf(driver.findElement(TITLE_CHECKS)));
             wait.until(ExpectedConditions.textToBe(TITLE_CHECKS,"Checks and radios"));
             result[0] = driver.findElement(TITLE_CHECKS).getText();
-            Thread.sleep(2000);
             result[1] = driver.getCurrentUrl();
 
         return result;
