@@ -1,0 +1,125 @@
+{
+  "uid" : "510e75ef38c8befb",
+  "name" : "testTableRows()",
+  "fullName" : "MainTest.testTableRows",
+  "historyId" : "f3e61c16a25a17140b171b9d77cc3604",
+  "time" : {
+    "start" : 1628173314563,
+    "stop" : 1628173315776,
+    "duration" : 1213
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628173314249,
+      "stop" : 1628173314528,
+      "duration" : 279
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1628173314567,
+      "stop" : 1628173315595,
+      "duration" : 1028
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "closing",
+    "time" : {
+      "start" : 1628173315704,
+      "stop" : 1628173315770,
+      "duration" : 66
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Testing a table"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-740"
+  }, {
+    "name" : "thread",
+    "value" : "3582@fv-az83-740.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MainTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MainTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testTableRows"
+  }, {
+    "name" : "suite",
+    "value" : "MainTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "ce3106772cbf4fe5",
+        "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/29//#testresult/ce3106772cbf4fe5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628172553413,
+          "stop" : 1628172554649,
+          "duration" : 1236
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "510e75ef38c8befb.json",
+  "parameterValues" : [ ]
+}

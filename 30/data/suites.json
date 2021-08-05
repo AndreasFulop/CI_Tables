@@ -1,0 +1,87 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "MainTest",
+    "children" : [ {
+      "name" : "testTableRows()",
+      "uid" : "510e75ef38c8befb",
+      "parentUid" : "14b1dacd482a1ebd81911f770f146533",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628173314563,
+        "stop" : 1628173315776,
+        "duration" : 1213
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTableColNames()",
+      "uid" : "af9376315d593c92",
+      "parentUid" : "14b1dacd482a1ebd81911f770f146533",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628173315840,
+        "stop" : 1628173316749,
+        "duration" : 909
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCheckRadioUrl()",
+      "uid" : "fe36f5fd839c1e00",
+      "parentUid" : "14b1dacd482a1ebd81911f770f146533",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628173316753,
+        "stop" : 1628173334882,
+        "duration" : 18129
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTableSecRows()",
+      "uid" : "9340718959e0722e",
+      "parentUid" : "14b1dacd482a1ebd81911f770f146533",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628173334902,
+        "stop" : 1628173335733,
+        "duration" : 831
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCheckRadioClick()",
+      "uid" : "30104689a9a33997",
+      "parentUid" : "14b1dacd482a1ebd81911f770f146533",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628173335736,
+        "stop" : 1628173353740,
+        "duration" : 18004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTableNameRows()",
+      "uid" : "d10b17ceabc85fcb",
+      "parentUid" : "14b1dacd482a1ebd81911f770f146533",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628173353750,
+        "stop" : 1628173354737,
+        "duration" : 987
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "14b1dacd482a1ebd81911f770f146533"
+  } ],
+  "name" : "suites"
+}
