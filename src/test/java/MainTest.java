@@ -1,4 +1,5 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Epic;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -30,6 +31,7 @@ public class MainTest {
     }
 
     @Test
+    @Epic("Testing a table")
     public void testTableRows() {
         MainPage mainPage = new MainPage(driver);
         List<String> expected = new ArrayList<>();
@@ -40,6 +42,7 @@ public class MainTest {
     }
 
     @Test
+    @Epic("Testing a table")
     public void testTableSecRows() {
         MainPage mainPage = new MainPage(driver);
         List<String> expected = new ArrayList<>();
@@ -50,6 +53,7 @@ public class MainTest {
     }
 
     @Test
+    @Epic("Testing a table")
     public void testTableNameRows() {
         MainPage mainPage = new MainPage(driver);
         List<String> expected = new ArrayList<>();
@@ -60,6 +64,7 @@ public class MainTest {
     }
 
     @Test
+    @Epic("Testing a table")
     public void testTableColNames() {
         MainPage mainPage = new MainPage(driver);
         List<String> expected = new ArrayList<>();
@@ -71,6 +76,7 @@ public class MainTest {
     }
 
     @Test
+    @Epic("Testing a menubutton")
     public void testCheckRadioClick(){
         MainPage mainPage = new MainPage(driver);
         String expected = "Checks and radios";
@@ -78,6 +84,7 @@ public class MainTest {
     }
 
     @Test
+    @Epic("Testing a menubutton")
     public void testCheckRadioUrl(){
         MainPage mainPage = new MainPage(driver);
         String expected = "https://getbootstrap.com/docs/5.0/forms/checks-radios/";
