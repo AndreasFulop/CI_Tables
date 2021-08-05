@@ -19,6 +19,7 @@ public class MainPage {
     private final By FORMS_MENU = By.xpath("//*[@id=\"bd-docs-nav\"]/ul/li[5]/button");
     private final By CHECKS = By.xpath("//*[@id=\"forms-collapse\"]/ul/li[4]/a");
     private final By TITLE_CHECKS = By.xpath("//*[@id=\"content\"]");
+    private final By ANCHOR = By.xpath("//*[@id=\"checks\"]/a");
 
     WebDriver driver;
 
@@ -76,10 +77,9 @@ public class MainPage {
         try {
             click(CHECKS);
             WebDriverWait wait = new WebDriverWait(driver, 10);
-    //        wait.until(ExpectedConditions.visibilityOf(driver.findElement(TITLE_CHECKS)));
-            wait.until(ExpectedConditions.textToBe(TITLE_CHECKS,"Checks and radios"));
+            wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(ANCHOR)));
+      //      wait.until(ExpectedConditions.textToBe(TITLE_CHECKS,"Checks and radios"));
             result[0] = driver.findElement(TITLE_CHECKS).getText();
-            Thread.sleep(2000);
             result[1] = driver.getCurrentUrl();
         } catch (Exception e) {
             Allure.addAttachment("Second click image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
