@@ -7,6 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.io.ByteArrayInputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 
 public class MainPage {
@@ -75,7 +76,8 @@ public class MainPage {
         try {
             click(CHECKS);
             WebDriverWait wait = new WebDriverWait(driver, 10);
-            wait.until(ExpectedConditions.visibilityOf(driver.findElement(TITLE_CHECKS)));
+    //        wait.until(ExpectedConditions.visibilityOf(driver.findElement(TITLE_CHECKS)));
+            wait.until(ExpectedConditions.textMatches(TITLE_CHECKS, Pattern.compile("Checks and radios")));
             result[0] = driver.findElement(TITLE_CHECKS).getText();
             Thread.sleep(2000);
             result[1] = driver.getCurrentUrl();
