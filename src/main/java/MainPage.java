@@ -76,15 +76,14 @@ public class MainPage {
         }
         try {
             click(CHECKS);
-                    } catch (Exception e) {
-            Allure.addAttachment("Second click image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        }
             WebDriverWait wait = new WebDriverWait(driver, 10);
-            wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(ANCHOR)));
-      //      wait.until(ExpectedConditions.textToBe(TITLE_CHECKS,"Checks and radios"));
+      //      wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(ANCHOR)));
+            wait.until(ExpectedConditions.textToBe(TITLE_CHECKS,"Checks and radios"));
             result[0] = driver.findElement(TITLE_CHECKS).getText();
             result[1] = driver.getCurrentUrl();
-
+        } catch (Exception e) {
+            Allure.addAttachment("Second click image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+        }
         return result;
     }
 
