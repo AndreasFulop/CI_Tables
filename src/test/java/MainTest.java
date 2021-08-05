@@ -21,7 +21,7 @@ public class MainTest {
     public void setDriver() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox");
-       // options.addArguments("--headless");
+        options.addArguments("--headless");
         options.addArguments("incognito");
         options.addArguments("--disable-gpu", "--ignore-certificate-errors", "--disable-extensions", "--disable-dev-shm-usage");
         driver = new ChromeDriver(options);
