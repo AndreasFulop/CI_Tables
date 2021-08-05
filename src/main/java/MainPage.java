@@ -74,12 +74,12 @@ public class MainPage {
         }
         try {
             click(CHECKS);
+       Thread.sleep(2000);
+        result[0] = driver.findElement(TITLE_CHECKS).getText();
+        result[1] = driver.getCurrentUrl();
         } catch (Exception e) {
             Allure.addAttachment("Second click image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         }
-        result[0] = driver.findElement(TITLE_CHECKS).getText();
-        result[1] = driver.getCurrentUrl();
-
         return result;
     }
 
