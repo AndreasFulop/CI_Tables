@@ -1,0 +1,149 @@
+{
+  "uid" : "2d4c2f7abd7558c6",
+  "name" : "testTableColNames()",
+  "fullName" : "MainTest.testTableColNames",
+  "historyId" : "158a74f06a2554e2cd7239b8b894e61d",
+  "time" : {
+    "start" : 1628157680307,
+    "stop" : 1628157681361,
+    "duration" : 1054
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setDriver",
+    "time" : {
+      "start" : 1628157680308,
+      "stop" : 1628157681215,
+      "duration" : 907
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "Init",
+    "time" : {
+      "start" : 1628157678626,
+      "stop" : 1628157678889,
+      "duration" : 263
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "closing",
+    "time" : {
+      "start" : 1628157681291,
+      "stop" : 1628157681361,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az81-527"
+  }, {
+    "name" : "thread",
+    "value" : "3514@fv-az81-527.ForkJoinPool-1-worker-3(16)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "MainTest"
+  }, {
+    "name" : "testClass",
+    "value" : "MainTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testTableColNames"
+  }, {
+    "name" : "suite",
+    "value" : "MainTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "cb1787d44cfea75c",
+        "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/22//#testresult/cb1787d44cfea75c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628157441580,
+          "stop" : 1628157442569,
+          "duration" : 989
+        }
+      }, {
+        "uid" : "2204a61f937ab30f",
+        "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/21//#testresult/2204a61f937ab30f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628156986623,
+          "stop" : 1628156987369,
+          "duration" : 746
+        }
+      }, {
+        "uid" : "72ef3f7b2792ca18",
+        "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/20//#testresult/72ef3f7b2792ca18",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628153131753,
+          "stop" : 1628153132666,
+          "duration" : 913
+        }
+      }, {
+        "uid" : "e78cc79be6464d7",
+        "reportUrl" : "https://AndreasFulop.github.io/CI_Tables/19//#testresult/e78cc79be6464d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628109339769,
+          "stop" : 1628109340664,
+          "duration" : 895
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2d4c2f7abd7558c6.json",
+  "parameterValues" : [ ]
+}
