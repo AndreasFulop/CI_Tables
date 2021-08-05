@@ -74,7 +74,7 @@ public class MainPage {
         }
         try {
             click(CHECKS);
-       Thread.sleep(2000);
+       Thread.sleep(12000);
         result[0] = driver.findElement(TITLE_CHECKS).getText();
         result[1] = driver.getCurrentUrl();
         } catch (Exception e) {
