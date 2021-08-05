@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element is not clickable at point (96, 592)\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-740', ip: '10.1.0.6', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.mxsQGf}, goog:chromeOptions: {debuggerAddress: localhost:36831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3020d714e32e0c79705a65ba9d04177f",
+      "children" : [ {
+        "name" : "testCheckRadioUrl()",
+        "uid" : "ce71d5440403bc5a",
+        "parentUid" : "b6109eb534aacc8d2db6c5ad853618b7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628153132670,
+          "stop" : 1628153134689,
+          "duration" : 2019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b6109eb534aacc8d2db6c5ad853618b7"
+    }, {
+      "name" : "element click intercepted: Element is not clickable at point (96, 592)\n  (Session info: headless chrome=92.0.4515.131)\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-740', ip: '10.1.0.6', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '16.0.2'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.CSpsCn}, goog:chromeOptions: {debuggerAddress: localhost:46479}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 75eb311ea76dde64db2686676e7082ed",
+      "children" : [ {
+        "name" : "testCheckRadioClick()",
+        "uid" : "ee50b26cf1811c89",
+        "parentUid" : "0aaf8b9607b4cf41c9a16e972a940c2b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628153135600,
+          "stop" : 1628153138136,
+          "duration" : 2536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0aaf8b9607b4cf41c9a16e972a940c2b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

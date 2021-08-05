@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu Aug 05 08:45:32 GMT 2021","Thu Aug 05 08:45:34 GMT 2021","2019","","MainTest","","MainTest","testCheckRadioUrl","testCheckRadioUrl()",""
+"passed","Thu Aug 05 08:45:38 GMT 2021","Thu Aug 05 08:45:39 GMT 2021","872","","MainTest","","MainTest","testTableNameRows","testTableNameRows()",""
+"passed","Thu Aug 05 08:45:34 GMT 2021","Thu Aug 05 08:45:35 GMT 2021","883","","MainTest","","MainTest","testTableSecRows","testTableSecRows()",""
+"passed","Thu Aug 05 08:45:31 GMT 2021","Thu Aug 05 08:45:32 GMT 2021","913","","MainTest","","MainTest","testTableColNames","testTableColNames()",""
+"passed","Thu Aug 05 08:45:30 GMT 2021","Thu Aug 05 08:45:31 GMT 2021","1211","","MainTest","","MainTest","testTableRows","testTableRows()",""
+"broken","Thu Aug 05 08:45:35 GMT 2021","Thu Aug 05 08:45:38 GMT 2021","2536","","MainTest","","MainTest","testCheckRadioClick","testCheckRadioClick()",""
