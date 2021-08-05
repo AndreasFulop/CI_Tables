@@ -1,0 +1,91 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "Testing a table",
+    "children" : [ {
+      "name" : "testTableRows()",
+      "uid" : "59a0eff0babae9d4",
+      "parentUid" : "213f103edc3e6bb263f5b96b8cc83ee3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628171221333,
+        "stop" : 1628171222632,
+        "duration" : 1299
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTableColNames()",
+      "uid" : "afe8614674b8a531",
+      "parentUid" : "213f103edc3e6bb263f5b96b8cc83ee3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628171222717,
+        "stop" : 1628171223696,
+        "duration" : 979
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTableSecRows()",
+      "uid" : "b26c63ea7ff1a213",
+      "parentUid" : "213f103edc3e6bb263f5b96b8cc83ee3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628171226497,
+        "stop" : 1628171227388,
+        "duration" : 891
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testTableNameRows()",
+      "uid" : "6ca8bebcd3239877",
+      "parentUid" : "213f103edc3e6bb263f5b96b8cc83ee3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628171229580,
+        "stop" : 1628171230476,
+        "duration" : 896
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "213f103edc3e6bb263f5b96b8cc83ee3"
+  }, {
+    "name" : "Testing a menubutton",
+    "children" : [ {
+      "name" : "testCheckRadioUrl()",
+      "uid" : "2bb9383864703b1d",
+      "parentUid" : "176029475da7a2f3d362bc35ea3ca082",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628171223703,
+        "stop" : 1628171226481,
+        "duration" : 2778
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "testCheckRadioClick()",
+      "uid" : "db21099d9692de2b",
+      "parentUid" : "176029475da7a2f3d362bc35ea3ca082",
+      "status" : "failed",
+      "time" : {
+        "start" : 1628171227391,
+        "stop" : 1628171229577,
+        "duration" : 2186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "176029475da7a2f3d362bc35ea3ca082"
+  } ],
+  "name" : "behaviors"
+}

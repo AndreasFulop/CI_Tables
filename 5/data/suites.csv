@@ -1,5 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Wed Aug 04 16:02:13 GMT 2021","Wed Aug 04 16:02:14 GMT 2021","727","","MainTest","","MainTest","testTableRows","testTableRows()",""
-"broken","Wed Aug 04 16:02:14 GMT 2021","Wed Aug 04 16:02:14 GMT 2021","169","","MainTest","","MainTest","testTableColNames","testTableColNames()",""
-"broken","Wed Aug 04 16:02:14 GMT 2021","Wed Aug 04 16:02:15 GMT 2021","179","","MainTest","","MainTest","testTableSecRows","testTableSecRows()",""
-"broken","Wed Aug 04 16:02:15 GMT 2021","Wed Aug 04 16:02:15 GMT 2021","145","","MainTest","","MainTest","testTableNameRows","testTableNameRows()",""
