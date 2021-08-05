@@ -93,7 +93,7 @@ public class MainPage {
     }
 
     private void click(By by) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(by));
         driver.findElement(by).click();
     }
