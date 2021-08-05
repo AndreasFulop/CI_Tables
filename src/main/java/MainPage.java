@@ -21,6 +21,7 @@ public class MainPage {
     private final By TITLE_CHECKS = By.xpath("//*[@id=\"content\"]");
     private final By ANCHOR = By.xpath("//*[@id=\"checks\"]/a");
     private final By CHECKBOX = By.xpath("/html/body/div[2]/main/div[3]/div[4]/div/label");
+    private final By COLLAPSE_BUTTON = By.xpath("/html/body/nav/div/button");
 
     WebDriver driver;
 
@@ -71,6 +72,10 @@ public class MainPage {
     public String[] checksRadios() {
         String[] result = new String[2];
         try {
+            click(COLLAPSE_BUTTON);
+        } catch (Exception e) {
+            System.out.println("Browser is quite big, not as a mobil");}
+        try{
             click(FORMS_MENU);
         } catch (Exception e) {
             Allure.addAttachment("First click image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
@@ -78,6 +83,7 @@ public class MainPage {
         try {
             click(CHECKS);
         } catch (Exception e) {
+ //           driver.get("https://getbootstrap.com/docs/5.0/forms/checks-radios");
             Allure.addAttachment("Second click image", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         } try {
             WebDriverWait wait = new WebDriverWait(driver, 10);
@@ -93,7 +99,7 @@ public class MainPage {
     }
 
     private void click(By by) {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, 20);
         wait.until(ExpectedConditions.elementToBeClickable(by));
         driver.findElement(by).click();
     }
